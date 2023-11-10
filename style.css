@@ -1,0 +1,143 @@
+
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000; /* Light theme background color */
+            color: #ffffff; /* Text color */
+        }
+
+        header {
+            background-color: transparent;
+            padding: 0px 0px;
+           
+        }
+
+        header img {
+            width: 200px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items:center ;
+            margin-top: 5px;
+            align-items: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ffffff; /* Link color */
+            padding: 10px 10px;
+            font-size: 1.2rem;
+            text-align: center;
+
+        }
+        nav a:hover{
+            background-color: #e50914;
+        }
+
+        .hero {
+            background-image:radial-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)) ,url('background.png'); /* Add your hero image */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero-content {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            width: 35%;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .hero p{
+            padding: 10px;
+            font-size: 1.5em;
+        }
+
+        .btn {
+            background-color: #e50914;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #ff0a16;
+        }
+
+        .btn:focus {
+            outline: none;
+        }
+
+        /* Add more styling to make it more attractive */
+        .browse-container {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .browse-content {
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .browse-content h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .browse-content p {
+            font-size: 1.2rem;
+        }
+
+        .browse-btn {
+            background-color: #e50914;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .browse-btn:hover {
+            background-color: #ff0a16;
+        }
+        /* Add this CSS code at the end of your existing CSS */
+
+
+
+        .signin-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #e50914;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .signin-btn:hover {
+            background-color: #ff0a16;
+        }
+
+        .signin-btn:focus {
+            outline: none;
+        }
